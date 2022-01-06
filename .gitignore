@@ -1,4 +1,3 @@
-config.h
 *.save*
 *.o
 dwm
