@@ -9,14 +9,13 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Terminus:size=12" };
 static const char dmenufont[]       = "Terminus:size=12";
-static const char col_accent[]       = "#666666";
-static const char col_border[]      = "#333333";
-static const char col_fg[]       = "#DDDDDD";
+static const char col_border[]      = "#000000";
+static const char col_fg[]          = "#DDDDDD";
 static const char col_bar[]         = "#000000";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_fg, col_bar, col_border },
-	[SchemeSel]  = { col_fg, col_bar, col_accent  },
+	[SchemeSel]  = { col_fg, col_bar, col_border  },
 };
 
 /* tagging */
