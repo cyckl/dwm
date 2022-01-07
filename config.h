@@ -7,8 +7,8 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int barheight          = 24;        /* bar height in px, 0 = auto */ 
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Terminus:size=12" };
-static const char dmenufont[]       = "Terminus:size=12";
+static const char *fonts[]          = { "Jetbrains Mono Light:size=10" };
+static const char dmenufont[]       = "Jetbrains Mono Light:size=10";
 static const char col_border[]      = "#000000";
 static const char col_fg[]          = "#DDDDDD";
 static const char col_bar[]         = "#000000";
