@@ -42,6 +42,13 @@ like this in your .xinitrc:
     exec dwm
 
 
+Patches
+-------
+- gaps
+- custom bar height
+- always indicate active tag
+- extra right side bar spacing
+
 Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
